@@ -12,9 +12,12 @@ namespace Array2
 
             for (int i = 0; i < n; i++) {
                 arr[i] = 1 << i;
-
-                System.Console.WriteLine(arr[i]);
+                Print(arr[i]);
             }
+        }
+
+        static void Print(int a) {
+            System.Console.WriteLine(a);
         }
     }
 }
